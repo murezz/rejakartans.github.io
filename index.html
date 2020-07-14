@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- mycss -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<title>Profile</title>
+
+<body id="home">
+    <!-- navbar -->
+
+    <div class="navbar-fixed">
+        <nav class="indigo darken-3">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#home" class="brand-logo">HollaGengss</a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#profile">Profile</a></li>
+                        <li><a href="#framework">Framework</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- akhir navbar -->
+
+
+    <!-- sidenav -->
+
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#framework">Framework</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+
+
+    <!-- slider -->
+
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img/coba.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h1>Welcome</h1>
+                    <h3 class="light grey-text text-lighten-3">to my website</h3>
+                </div>
+            </li>
+            <li>
+                <img src="img/slider1.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                    <h1>Im Junior</h1>
+                    <h3 class="light grey-text text-lighten-3">Developmet!</h3>
+                </div>
+            </li>
+            <li>
+                <img src="img/jumbrot3.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                    <h1>this is PHP</h1>
+                    <h3 class="light grey-text text-lighten-3">Programmer!</h3>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <!-- profile -->
+    <section id="profile" class="profile scrollspy">
+        <div class="container center">
+            <h3>Profile</h3>
+            <img class="circle responsive-img" src="img/Gobuk.jpg" style="width: 200px; height: 200px;">
+
+            <div class="row">
+                <div class="col m6 s12">
+                    <h3>Status</h3>
+                    <h5>Muhammad Reza Aditya</h5>
+                    <p>PROFESSI : Student</p>
+                    <p>STUDY IN : Smk Jakarta Pusat 1</p>
+                    <p>AGE : 17 Year Old</p>
+                    <p>DATE OF BIRTH : 13 December 2002</p>
+                    <p>HOBBY : Journey</p>
+                    <p>GENDER : Male</p>
+                </div>
+                <div class="col m6 s12">
+                    <h3>Skills</h3>
+                    <h5>Junior Web Development</h5>
+                    <p>html/css</p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 65%"></div>
+                    </div>
+                    <p>PHP</p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 60%"></div>
+                    </div>
+                    <p>javascript</p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 50%"></div>
+                    </div>
+                    <p>SQL</p>
+                    <div class="progress">
+                        <div class="determinate" style="width: 60%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- paralax -->
+    <div id="framework" class="parallax-container scrollspy">
+        <div class="parallax"><img src="img/kw.jpg"></div>
+
+        <div class="container fm">
+            <h3 class="center light white-text">Can use a framework</h3>
+            <div class="row">
+                <div class="col m4 s12 center">
+                    <img src="img/bootstrap.png">
+                    <h3 class="center light white-text">Bootstrap</h3>
+                </div>
+                <div class="col m4 s12 center">
+                    <img src="img/materialize.png">
+                    <h3 class="center light white-text">Materialize</h3>
+                </div>
+                <div class="col m4 s12 center">
+                    <img src="img/laravel.png">
+                    <h3 class="center light white-text">Laravel</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- portfolio -->
+
+    <section id="portfolio" class="portfolio indigo darken-3 scrollspy">
+        <div class="container">
+            <h3 class="center text light white-text">Portfolio</h3>
+            <div class="row">
+                <div class="col m3 s6">
+                    <img src="img/hlmn.png" class="responsive-img materialboxed">
+                    <span class="text light white-text">Web tiket kereta</span>
+                </div>
+                <div class="col m3 s6">
+                    <img src="img/p.png" class="responsive-img materialboxed">
+                    <span class="text light white-text">Web Aduan Siswa</span>
+                </div>
+                <div class="col m3 s6">
+                    <img src="img/covid.png" class="responsive-img materialboxed">
+                    <span class="text light white-text">Chart Covid-19</span>
+                </div>
+                <div class="col m3 s6">
+                    <img src="img/p2.png" class="responsive-img materialboxed">
+                    <span class="text light white-text">Web Absensi Siswa</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact us -->
+
+    <section id="contact" class="contact scrollspy">
+        <div class="container">
+            <h3 class="center">Contact Us</h3>
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card indigo darken-3">
+                        <div class="card-content white-text">
+                            <span class="card-title"><i class="fas fa-user"></i> Account</span>
+                            <a href="https://instagram.com/reejaaditya_?igshid=10h5s4cjzdjrt" class="white-text"><i
+                                    class="fab fa-instagram"></i> : @reejaaditya_</a><br>
+                            <a href="rezaaditya.131202@gmail.com" class="white-text"><i class="far fa-envelope"></i> :
+                                rezaaditya.131202@gmail.com</a><br>
+                            <a href="https://github.com/rejakartans/" class="white-text"><i class="fab fa-github"></i> :
+                                github.com/rejakartans</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card indigo darken-3">
+                        <div class="card-content white-text">
+                            <span class="card-title"><i class="fas fa-map-marker-alt"></i> My Address</span>
+                            <a href="https://maps.app.goo.gl/j9M6X22Ltk6Dr5nA7" class="white-text">Jl. Kb. Pala 3
+                                Kb. Melati,<br> Tanahabang, Kota Jakarta Pusat, <br>Daerah Khusus Ibukota Jakarta
+                                10230</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+
+    <footer class="indigo darken-3 white-text center">
+        <p class="flow-text">MhmmdReeza. Copyright 2020.</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+        const sideNav = document.querySelectorAll('.sidenav')
+        M.Sidenav.init(sideNav);
+    </script>
+
+    <script>
+        const Slider = document.querySelectorAll('.slider')
+        M.Slider.init(Slider, {
+            indicators: false,
+            height: 575,
+            duration: 600,
+            interval: 3000
+        });
+    </script>
+
+    <script>
+        const parallax = document.querySelectorAll('.parallax')
+        M.Parallax.init(parallax);
+    </script>
+
+    <script>
+        const materialbox = document.querySelectorAll('.materialboxed')
+        M.Materialbox.init(materialbox);
+    </script>
+
+    <script>
+        const collapsible = document.querySelectorAll('.collapsible')
+        M.Collapsible.init(collapsible);
+    </script>
+
+    <script>
+        const scrollspy = document.querySelectorAll('.scrollspy')
+        M.ScrollSpy.init(scrollspy, {
+            scrollOffset: 55
+        });
+    </script>
+
+</body>
+
+</html>
